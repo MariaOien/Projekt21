@@ -1,0 +1,291 @@
+/*
+ * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+ * http://cssreset.com*/
+ 
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+
+
+/*vores css begynder her*/
+
+body {
+	background-color: black; /*sidens baggrundsfarve sort*/
+	
+}
+
+.everything {
+	max-width: 1900px;
+	width: 100%;
+}
+
+
+nav {
+	text-decoration: none;
+	font-family: 'new rocker';
+	font-size: 250%;
+	text-align: center;
+	position: relative;
+	top: -620px;
+}
+
+/*list item her brugt som knapper i navigations menuen*/
+li {
+	display: inline;	
+	padding: 0% 1%;
+}
+
+
+.logo {
+	width: 20%;
+	max-width: 350px;
+	margin: 1% auto;
+	position: relative;
+	top: 180px;
+	text-align: center;
+	z-index: 99;
+	
+}
+
+
+
+/*skrifttype til brødtekst*/
+.text {
+	font-family: 'new rocker', bold;	
+	font-size: 150% ;
+	color: white;
+}
+
+.welcome {
+	font-family: 'new rocker', bold;
+	font-size: 250%;
+	color: white;
+	text-align: center;
+}
+
+header {
+	height: auto;
+	z-index: 50;
+}
+
+#header-pic {
+	width: 90%;
+	display: block;
+	margin: 0px auto;
+}
+
+#baggrund {
+	position: relative;
+	top: -500px;
+	/*height: 100%;*/
+	width: 70%;
+	max-width: 1500px;
+	margin: 0 auto;
+	padding: 5%;
+	background-image: url(../images/wall.jpg); /*baggrundsbillede*/
+	background-repeat: repeat;
+	z-index: -99;
+}
+
+
+.nav-link {
+	text-decoration: none;
+	color: black;
+}
+
+video {
+	display: block;
+	margin: 25px auto;
+	width: 90%;
+	z-index: 99;
+}
+
+footer {
+	text-align: center;
+	position: relative;
+	bottom: 500px;
+}
+
+
+
+
+p {
+	margin: 10px 0px;
+}
+
+
+h1 {
+	text-align: center;
+	font-size: 150%;
+}
+
+.mand {
+	width: 60%;
+	display: block;
+	margin: 20px auto;
+
+}
+
+
+.helt {
+	position: relative;
+	bottom: 0px;
+}
+
+.orc {
+	position: relative;
+	bottom: 0px;
+}
+
+
+
+
+
+/*breakpoint*/
+@media only screen and (max-width: 1696px){
+
+
+
+nav {
+	font-size: 200%;
+	top: -560px;
+}
+
+
+
+.logo {
+	width: 20%;
+	max-width: 350px;
+	margin: 1% auto;
+	top: 180px;
+	
+	
+}
+
+}
+
+
+
+/*breakpoint*/
+@media only screen and (max-width: 1472px){
+
+
+nav {
+	font-size: 200%;
+	top: -480px;
+}
+
+
+
+.logo {
+	width: 20%;
+	max-width: 300px;
+	margin: 1% auto;
+	top: 160px;
+	
+	
+}
+
+video {
+	position: relative;
+	top: 50px;
+}
+
+}
+
+
+/*breakpoint*/
+@media only screen and (max-width: 1248px){
+
+
+
+nav {
+	font-size: 200%;
+	top: -400px;
+}
+
+
+
+.logo {
+	width: 20%;
+	max-width: 350px;
+	margin: 1% auto;
+	top: 140px;
+	
+	
+}
+
+}
+
+
+/*breakpoint*/
+@media only screen and (max-width: 1024px){
+
+
+nav {
+	font-size: 150%;
+	top: -340px;
+}
+
+/*list item her brugt som knapper i navigations menuen*/
+li {
+	display: inline;	
+	padding: 0% 1%;
+}
+
+
+.logo {
+	width: 20%;
+	max-width: 350px;
+	margin: 1% auto;
+	top: 120px;
+	
+	
+}
+
+}
