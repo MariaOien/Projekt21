@@ -2,6 +2,7 @@
 <!--definerer variabler der bruges til at vise sidens title og til at loade et stylesheet der skifter baggrundsbilledet i "content-image" sectionen-->
 <!--desuden bruges include til at loade vores header-->
 <?php
+// title som vises i <title> tag
 	
 	$pageTitle = 'Om Os';
 	
